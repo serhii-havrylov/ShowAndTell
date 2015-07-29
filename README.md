@@ -1,6 +1,8 @@
-This project reproduces model from the paper [Show and Tell: A Neural Image Caption Generator](http://arxiv.org/abs/1411.4555)
+"For millions of years mankind lived just like the animals. Then something happened which unleashed the power of our imagination: we learned to talk".
 
-Image features were 4096 numbers which are the output from the `relu7` layer from the VGG network which you can download [here](https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md).
+This project reproduces the model from [Show and Tell: A Neural Image Caption Generator](http://arxiv.org/abs/1411.4555)
+
+Image features are the outputs of the `relu7` layer from the VGG network which you can download [here](https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md).
 
 You can download prepared training and validation data from my [google drive](https://drive.google.com/folderview?id=0B-bMt9sukkEhfnlhbm9fczhsTWVQcm1yNkpfVExvU19jWmw0bzl1ZTQ1eDVyeW82Vi1pQ1E&usp=sharing) or you can reproduce all image/text feature extraction pipeline by next steps:
 
