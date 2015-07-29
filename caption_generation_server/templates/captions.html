@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<body>
+
+<img width="400" height="400" src={{ imagesrc }}></a>
+<h2>Top-5 captions</h2>
+{% for i in range(5) %}
+<p><b>{{i}}.</b> {{scores[i]}} {{captions[i]}}</p>
+{% endfor %}
+
+</body>
+</html>
