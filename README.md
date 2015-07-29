@@ -4,7 +4,7 @@ This project reproduces the model from [Show and Tell: A Neural Image Caption Ge
 
 Image features are the outputs of the `relu7` layer from the VGG network which you can download [here](https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md).
 
-You can download prepared training and validation data from my [google drive](https://drive.google.com/folderview?id=0B-bMt9sukkEhfnlhbm9fczhsTWVQcm1yNkpfVExvU19jWmw0bzl1ZTQ1eDVyeW82Vi1pQ1E&usp=sharing) or you can reproduce all image/text feature extraction pipeline by next steps:
+You can download prepared training and validation data from my [google drive](https://drive.google.com/folderview?id=0B-bMt9sukkEhfnlhbm9fczhsTWVQcm1yNkpfVExvU19jWmw0bzl1ZTQ1eDVyeW82Vi1pQ1E&usp=sharing) or you can reproduce image/text feature extraction pipeline as following:
 
 1. Download datasets
     - [MSCOCO](http://mscoco.org/dataset/#download)
@@ -22,4 +22,4 @@ You can download prepared training and validation data from my [google drive](ht
 
 To train model run `caption_generation_model/train.py`
 
-If you want to use pretrained model you can run minimalistic flask app `caption_generation_server/app.py` (Note: for doing this you have to have installed [caffe](https://github.com/BVLC/caffe) and its python interface `pycaffe`)
+If you want to use the pretrained model run minimalistic flask app `caption_generation_server/app.py` (Note: it requires installed [caffe](https://github.com/BVLC/caffe) and its python interface `pycaffe`)
