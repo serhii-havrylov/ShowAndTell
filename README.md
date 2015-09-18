@@ -20,6 +20,6 @@ You can download prepared training and validation data from my [google drive](ht
 4. Run python scripts for generating training and validation data
     - run `data_preparation/merge_all_data.py`
 
-To train model run `caption_generation_model/train.py`
+To train model run `caption_generation_model/train.py` or you can download pretrained model from my [google drive](https://drive.google.com/folderview?id=0B-bMt9sukkEhfnlhbm9fczhsTWVQcm1yNkpfVExvU19jWmw0bzl1ZTQ1eDVyeW82Vi1pQ1E&usp=sharing)
 
 If you want to use the pretrained model run minimalistic flask app `caption_generation_server/app.py` (Note: it requires installed [caffe](https://github.com/BVLC/caffe) and its python interface `pycaffe`)
